@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Explore LIWLIG's portfolio of corporate events, brand experiences, exhibitions, and group travel projects across the Nordics and globally." />
+    <title>Work — LIWLIG</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <script type="module" src="/src/js/main.js"></script>
+    <link rel="stylesheet" href="/src/styles/pages.css" />
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div class="preloader-logo">LIWLIG</div>
+    </div>
+
+    <nav class="nav" id="nav">
+        <a href="/" class="nav-logo">LIW<span>LIG</span></a>
+        <div class="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/work.html" class="nav-link active">Work</a>
+            <a href="/services.html" class="nav-link">Services</a>
+            <a href="/about.html" class="nav-link">About</a>
+            <a href="/contact.html" class="nav-link">Contact</a>
+            <a href="/contact.html" class="btn btn-primary btn-sm nav-cta magnetic">Let's Talk</a>
+        </div>
+        <button class="nav-toggle" id="navToggle"
+            aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </nav>
+    <div class="nav-mobile" id="navMobile">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/work.html" class="nav-link active">Work</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+    </div>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <span class="label hero-animate-1" style="color: var(--color-accent-light);">Our Work</span>
+            <h1 class="heading-2 hero-animate-2">Projects that<br /><span class="text-gradient">inspire action</span>
+            </h1>
+            <p class="hero-animate-3">From intimate executive gatherings to global brand activations — each project
+                tells a powerful story.</p>
+        </div>
+    </header>
+
+    <!-- Filter + Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="filter-bar reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="exhibitions">Exhibitions</button>
+                <button class="filter-btn" data-filter="brand">Brand</button>
+                <button class="filter-btn" data-filter="travel">Travel</button>
+                <button class="filter-btn" data-filter="content">Content</button>
+            </div>
+
+            <div class="work-grid stagger-children">
+                <a href="/case-study.html" class="project-item reveal" data-category="events">
+                    <div class="project-card tilt-card">
+                        <img src="/src/assets/project-corporate.png" alt="Equinor 50 Years" loading="lazy" />
+                        <div class="project-card-content">
+                            <span class="card-tag">Corporate Event</span>
+                            <h3 class="project-card-title">Equinor: Celebrating 50 Years</h3>
+                            <span class="project-card-client">Equinor</span>
+                        </div>
+                        <div class="project-card-arrow">→</div>
+                    </div>
+                </a>
+
+                <a href="/case-study.html" class="project-item reveal" data-category="exhibitions">
+                    <div class="project-card tilt-card">
+                        <img src="/src/assets/project-exhibition.png" alt="Airbus Exhibition" loading="lazy" />
+                        <div class="project-card-content">
+                            <span class="card-tag">Exhibition</span>
+                            <h3 class="project-card-title">Airbus: Critical Communications World</h3>
+                            <span class="project-card-client">Airbus</span>
+                        </div>
+                        <div class="project-card-arrow">→</div>
+                    </div>
+                </a>
+
+                <a href="/case-study.html" class="project-item reveal" data-category="brand">
+                    <div class="project-card tilt-card">
+                        <img src="/src/assets/project-brand.png" alt="Puma Forever Faster" loading="lazy" />
+                        <div class="project-card-content">
+                            <span class="card-tag">Brand Experience</span>
+                            <h3 class="project-card-title">Puma: Forever. Faster.</h3>
+                            <span class="project-card-client">Puma</span>
+                        </div>
+                        <div class="project-card-arrow">→</div>
+                    </div>
+                </a>
+
+                <a href="/case-study.html" class="project-item reveal" data-category="travel">
+                    <div class="project-card tilt-card">
+                        <img src="/src/assets/project-travel.png" alt="Switzerland Retreat" loading="lazy" />
+                        <div class="project-card-content">
+                            <span class="card-tag">Group Travel</span>
+                            <h3 class="project-card-title">Luxury Corporate Retreat</h3>
+                            <span class="project-card-client">Private Client</span>
+                        </div>
+                        <div class="project-card-arrow">→</div>
+                    </div>
+                </a>
+
+                <a href="/case-study.html" class="project-item reveal" data-category="content">
+                    <div class="project-card tilt-card">
+                        <img src="/src/assets/project-content.png" alt="Content Production" loading="lazy" />
+                        <div class="project-card-content">
+                            <span class="card-tag">Content Production</span>
+                            <h3 class="project-card-title">Grand Hotel Oslo: 150 Years</h3>
+                            <span class="project-card-client">Grand Hotel</span>
+                        </div>
+                        <div class="project-card-arrow">→</div>
+                    </div>
+                </a>
+
+                <a href="/case-study.html" class="project-item reveal" data-category="events">
+                    <div class="project-card tilt-card">
+                        <img src="/src/assets/hero-event.png" alt="NATO Meeting" loading="lazy" />
+                        <div class="project-card-content">
+                            <span class="card-tag">Diplomacy</span>
+                            <h3 class="project-card-title">NATO Ministers Meeting, Oslo</h3>
+                            <span class="project-card-client">Ministry of Foreign Affairs</span>
+                        </div>
+                        <div class="project-card-arrow">→</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-dark cta-section">
+        <div class="cta-glow"></div>
+        <div class="container text-center reveal">
+            <h2 class="heading-3 text-light">Have a project in mind?</h2>
+            <p class="subheading"
+                style="color:rgba(255,255,255,0.6); max-width:500px; margin:var(--space-md) auto var(--space-xl);">Let's
+                create something extraordinary together.</p>
+            <a href="/contact.html" class="btn btn-primary magnetic">Start Your Project</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="nav-logo" style="font-size:var(--text-2xl);">LIW<span>LIG</span></a>
+                    <p>Norway's leading event and brand experience agency.</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Navigate</h4>
+                    <a href="/work.html" class="footer-link">Work</a>
+                    <a href="/services.html" class="footer-link">Services</a>
+                    <a href="/about.html" class="footer-link">About Us</a>
+                    <a href="/contact.html" class="footer-link">Contact</a>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Services</h4>
+                    <a href="/services.html" class="footer-link">Corporate Events</a>
+                    <a href="/services.html" class="footer-link">Brand Experiences</a>
+                    <a href="/services.html" class="footer-link">Exhibitions</a>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Contact</h4>
+                    <a href="mailto:vegard.drogseth@liwlig.no" class="footer-link">vegard.drogseth@liwlig.no</a>
+                    <p
+                        style="color:rgba(255,255,255,0.4); margin-top:var(--space-md); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:var(--tracking-wider);">
+                        Finland · Sweden · Norway · Denmark · Global</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 LIWLIG. All rights reserved.</span>
+                <span>The Nordic Events Agency</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
