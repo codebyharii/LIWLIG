@@ -7,5 +7,5 @@ This website was built entirely through "vibe coding" using **Antigravity** and 
 - Claude (Anthropic)
 - HTML/CSS/JS
 
-## How it was built
+## How it built
 Everything in this repository was generated through AI pair programming and natural language prompts, demonstrating the power of modern LLM coding capabilities.
